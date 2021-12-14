@@ -1,0 +1,119 @@
+*,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+
+  html{
+      font-size: 62.5%;
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+  body{
+      width: 100%;
+      height: 100vh;
+      background-color: 
+      #89d1cd;
+      
+  }
+  
+.container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-items: center; */
+    justify-content: center;
+    box-sizing: border-box;
+    border-width: 80%;
+    border-radius: 20px;
+    box-shadow: gray;
+    width: 80%;
+    height: 80%;
+    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -30px;
+   
+}
+img{
+    width: 50%;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+    width: 50%;
+    background-image: url(../assets/GQgirp.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      color: 
+      #89d1cd;
+      
+}
+.contain{
+    margin: 0 5% 0 5%;
+    color: 
+    #858383;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(161,158,158, 0.1)
+    ;
+    border-radius: 2rem;
+    box-shadow: rgba(161,158,158, 0.35) 0px 5px 15px;
+}
+.paragraph{
+    margin: 0 2% 0 2%;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 50%;
+    height: 100%;
+    color: #a19e9e;
+    
+}
+input{
+    width: 40%;
+    height: 5%;
+    border-radius: 1rem;
+    color: #a19e9e;
+    border: 0.1rem solid #0abab5;
+    background-color: rgb(137,209,205, 0.1);
+    box-shadow: rgba(137,209,205, 0.35) 0px 5px 15px;
+}
+button{
+    width: 20%;
+    height: 5%;
+    border-radius: 1rem;
+    background-color: #89d1cd;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: rgba(161,158,158, 0.35) 0px 5px 15px;
+}
+button:hover{
+    background-color: #0abab5;
+}
+
+#btn{
+    width: 30%;
+    height: 7%;
+}
+
+/* CHAT */
+
